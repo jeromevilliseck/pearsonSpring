@@ -1,0 +1,25 @@
+#ignore dependency caches
+/node_modules
+/packages
+#ignore the compiled code
+*.o
+*.pyc
+*.class
+#ignore build output directories
+/bin
+/out
+/target
+#ignore the files generated at runtime
+*.log
+*.lock
+*.tmp
+#ignore hidden system files
+.DS_Store
+Thumbs.db
+#ignore all Intellij IDE configuration files
+*.iml
+.idea
+**/idea
+*.idea
+#ignore all logs
+**/logs
